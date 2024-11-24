@@ -51,7 +51,7 @@ public class Calculator {
         int arg2 = Integer.parseInt(args[2]);
 
         try {
-            if (arg1 > 10 || arg1 < 0 || arg2 < 0 || arg2 > 10){
+            if (arg1 > 10 || arg1 < 1 || arg2 < 1 || arg2 > 10){
                 throw new RuntimeException();
             }
         } catch (Exception ex){
